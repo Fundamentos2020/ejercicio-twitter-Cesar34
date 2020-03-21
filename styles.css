@@ -1,7 +1,15 @@
+﻿.pie {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    height: 75px;
+}
+
 * { 
     box-sizing: border-box; 
     font-family: sans-serif;
 }
+
 
 body { margin: 0; }
 
@@ -130,3 +138,7 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+button{
+	outline-color:red;
+}
